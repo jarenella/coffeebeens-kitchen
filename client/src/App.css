@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 :root {
     /* light mode */
     --text: #0b0811;
@@ -12,4 +14,8 @@
     --primaryButtonD: #d9beaf;
     --secondaryButtonD: #160618;
     --accentD: #6ab986;
+}
+
+body {
+    background-color: var(--background);
 }

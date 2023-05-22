@@ -1,0 +1,30 @@
+header {
+    background-color: var(--primaryButton);
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    position: absolute;
+    font-family: 'Anton', sans-serif;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 3vmin;
+    font-size: 4.5vmin;
+}
+
+nav {
+    margin: 3vmin;
+    font-size: 3vmin;
+}
+
+.navlink {
+    margin: 1vmin;
+}
+
+.navlink:hover {
+    cursor: pointer;
+    color: #3b3941;
+}
